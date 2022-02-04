@@ -1,0 +1,47 @@
+.descricao-bg {
+  background-color: var(--cor-1);
+}
+
+.descricao-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  padding: 60px 0;
+  height: 60vh;
+  gap: 30px;
+}
+
+.text-descricao {
+  width: 50%;
+}
+
+.text-descricao h2 {
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .descricao-content {
+    width: 90%;
+    height: auto;
+  }
+  .text-descricao h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .text-descricao {
+    width: 100%;
+  }
+
+  .text-descricao h2 {
+    font-size: 1rem;
+  }
+  .imagem-descricao svg {
+    width: 84px;
+    height: 103px;
+  }
+}

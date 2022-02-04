@@ -1,0 +1,61 @@
+.footer-bg {
+  background-color: var(--cor-3);
+}
+
+.container-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  padding: 40px 0;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+address a {
+  color: var(--cor-0);
+  font-style: normal;
+  margin-left: 10px;
+}
+
+.contato h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.redes-footer svg {
+  margin-right: 20px;
+}
+
+.redes-footer svg path {
+  fill: var(--cor-0);
+  transition: 0.3s;
+}
+
+.redes-footer svg path:hover {
+  fill: var(--cor-p1);
+}
+
+.contato-art svg {
+  width: 80px;
+  height: 80px;
+}
+
+.contato-art svg path {
+  fill: var(--cor-4);
+}
+
+@media (max-width: 800px) {
+  .container-footer {
+    align-items: flex-end;
+  }
+  .contato-art svg {
+    width: 60px;
+    height: 60px;
+  }
+}

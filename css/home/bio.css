@@ -1,0 +1,62 @@
+.bio-bg {
+  background-color: var(--cor-3);
+}
+
+.bio-content {
+  width: 75%;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: center;
+  justify-content: space-between;
+  height: 80vh;
+  display: flex;
+}
+
+.text-bio {
+  width: 60%;
+}
+
+.text-descricao-bio h1,
+.text-descricao-tec h1 {
+  margin-bottom: 20px;
+}
+
+.text-descricao-tec h1 {
+  margin-top: 60px;
+}
+
+@media (max-width: 1200px) {
+  .bio-content {
+    width: 90%;
+    height: auto;
+    gap: 0px;
+    padding: 60px 0;
+  }
+  .text-bio {
+    width: 90%;
+  }
+  .text-descricao-bio h1,
+  .text-descricao-tec h1 {
+    font-size: 1rem;
+  }
+  .bio-content p {
+    font-size: 0.875rem;
+  }
+  .bio-imagem svg {
+    width: 200px;
+    height: 176px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bio-bg {
+    padding: 10px 0;
+  }
+
+  .text-bio {
+    width: 100%;
+  }
+  .bio-imagem svg {
+    display: none;
+  }
+}

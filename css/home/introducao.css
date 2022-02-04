@@ -1,0 +1,43 @@
+.introducao-bg {
+  background-color: var(--cor-3);
+}
+
+.introducao {
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0px 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.introducao-conteudo {
+  align-items: center;
+  justify-self: center;
+}
+
+.introducao h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .introducao {
+    height: 140px;
+  }
+  .introducao h1 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .introducao p {
+    font-size: 1rem;
+    width: 60%;
+    margin: 0 auto;
+  }
+}

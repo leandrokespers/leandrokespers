@@ -1,0 +1,31 @@
+.portfolio-bg {
+  height: 300px;
+}
+
+.portfolio-container {
+  width: 90%;
+  display: grid;
+}
+
+.portfolio-title {
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.portfolio-title h1 {
+  position: relative;
+  padding-top: 30px;
+  text-align: left;
+}
+
+.portfolio-title h1::before {
+  display: block;
+  content: "";
+  width: 45px;
+  height: 44px;
+  background: url("../../img/background-port.svg") no-repeat center center;
+  position: absolute;
+  z-index: -1;
+  left: 25px;
+}

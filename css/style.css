@@ -1,0 +1,19 @@
+@import "./global/global.css";
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+
+@import "./global/header.css";
+@import "./global/footer.css";
+/*UTILIDADES*/
+@import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+
+/*HOME*/
+@import "./home/introducao.css";
+@import "./home/descricao.css";
+@import "./home/bio.css";
+@import "./home/portfolio.css";
+@import "./home/footer.css";
+
+/*TERMOS*/
+@import "./termos/termos.css";

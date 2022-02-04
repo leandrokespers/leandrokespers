@@ -1,0 +1,102 @@
+/*HEADER*/
+
+.header-bg {
+  background-color: var(--cor-p1);
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  margin-right: 20px;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+.logo-up:hover {
+  color: var(--cor-0);
+}
+
+nav {
+  display: flex;
+}
+
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.header-menu a {
+  padding: 1rem 0;
+  display: inline-block;
+  position: relative;
+  color: var(--cor-3);
+  font-weight: 700;
+}
+
+.header-menu a:hover {
+  color: var(--cor-0);
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 2px;
+  background-color: var(--cor-0);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+}
+
+.redes-menu {
+  display: flex;
+}
+
+.redes-menu svg {
+  fill: var(--cor-p1);
+  padding-left: 10px;
+}
+
+#rede-icon {
+  fill: var(--cor-3);
+  transition: 0.2s;
+  padding: 10px;
+}
+#rede-icon:hover {
+  fill: var(--cor-0);
+}
+
+.header-menu a:hover:after {
+  width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .header {
+    width: 90%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .logo {
+    margin-right: 0px;
+  }
+  .redes-menu {
+    display: none;
+  }
+}
+
+/*FIM HEADER*/
